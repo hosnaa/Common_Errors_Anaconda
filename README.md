@@ -12,3 +12,5 @@
 ## Error 02:
 * Spyder isn't launching and Anaconda navigator keeps telling to update it but when I click "yes" to update nothing happens
 - :+1: Solution that worked for me:
+    - Just run Anaconda navigator as administrator.
+    - **Or** you may update it manually from the anconda prompt run this command: `<conda update --all>`
