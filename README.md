@@ -1,7 +1,7 @@
 # Common_Errors_Anaconda_(Windows 10)
 ## Error 01:
 * While trying to convert .ui file into .py file, it gave me (ImportError: DLL load failed)
--[x] Solution that worked for me: 
+- [x] Solution that worked for me: 
     - Run the anaconda prompt as an Administrator
     - Go to the directory where you've installed anconda in (ex: cd c:/Users/Hosna/Anaconda_Install)
     - write this command `<python -m pip install --upgrade pyqt5>`
@@ -11,4 +11,4 @@
 
 ## Error 02:
 * Spyder isn't launching and Anaconda navigator keeps telling to update it but when I click "yes" to update nothing happens
--:+1: Solution that worked for me
+- :+1: Solution that worked for me
