@@ -18,8 +18,7 @@
 ## Error 03:
 * Trying to uninstall/install any package gives this error\
 [WinError 127] The specified procedure could not be found\
-[WinError 127] The specified procedure could not be found\
+[WinError 127] The specified procedure could not be found
 - :+1: Solution that worked for me:
-    - > I found out libssl-1_1-x64 dlls in Anaconda/DLLS and Anaconda/Library/bin being installed at different dates, so, as an experiment, I copied the one in Anaconda/DLLS and replaced that in Anaconda/Library/bin and conda started working again, at least for now - I could install new packages again.
-    - Said by "SimonCarozza" [here](https://github.com/conda/conda/issues/9003)
-    
+     > I found out libssl-1_1-x64 dlls in Anaconda/DLLS and Anaconda/Library/bin being installed at different dates, so, as an experiment, I copied the one in Anaconda/DLLS and replaced that in Anaconda/Library/bin and conda started working again, at least for now - I could install new packages again.\
+     Said by "SimonCarozza" [here](https://github.com/conda/conda/issues/9003)
