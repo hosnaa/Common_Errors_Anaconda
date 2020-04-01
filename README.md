@@ -27,9 +27,9 @@
 * Spyder doesn't launch
     - "python stopped working" diaglog box
         -  Error opening Anaconda or spyder "no Qt plugin platform" 
-* These errors happened in series to me, whenever I try to solve one the other would just appear(It just missed up more not solved)
+* :sob: These errors happened in series to me, whenever I try to solve one the other would just appear(It just missed up more not solved)
 * Proposed solutions:
     - run this command in anaconda prompt `<spyder --reset>` then restart your pc
-    - update anconda or pyqt only `<conda update --all>`    `<conda update pyqt>`
+    - update anconda or pyqt (try both) `<conda update --all>`    `<conda update pyqt>`
     - Uninstall pyqt and qt then reinstall them again `<conda remove qt>`     `<conda install -c anaconda qt>` 
 
