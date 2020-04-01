@@ -53,3 +53,5 @@
 ##### Note: at first when spyder didn't launch, I tried to run it from anaconda navigator but it yielded this error: (from PyQt5.QtWebEngineWidgets import QWebEnginePage, ValueError: PyCapsule_GetPointer called with incorrect name). [Link](https://github.com/spyder-ide/spyder/issues/3138) that mentioned same issue in the comments.
 
 ### Note: It's really important to have more than one environment in python.
+
+## 
