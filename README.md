@@ -54,4 +54,9 @@
 
 ### Note: It's really important to have more than one environment in python.
 
-## 
+## Error 06: 
+* Error in github desktop make me unable to push anything, the error is like the one in this [link](https://github.com/desktop/desktop/issues/2623) and the solution is on the same link, I'm just rephrasing it.
+* :+1: Solution that worked for me:
+    - From search/start at window, type registry editor and open it.
+    - Choose HKEY_CURRENT_USER\Software\Microsoft\Command Processor\
+    - If you find an AutoRun key then delete it.
