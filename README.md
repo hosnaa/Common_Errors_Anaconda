@@ -22,8 +22,21 @@
 - :+1: Solution that worked for me:
     - *Said by "SimonCarozza" [here](https://github.com/conda/conda/issues/9003)*
     > I found out libssl-1_1-x64 dlls in Anaconda/DLLS and Anaconda/Library/bin being installed at different dates, so, as an experiment, I copied the one in Anaconda/DLLS and replaced that in Anaconda/Library/bin and conda started working again, at least for now - I could install new packages again.
-   
+
 ## Error 04:
+* whenever I try to write anything in the prompt regarding anaconda it gives this error\
+> CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://conda.anaconda.org/conda-forge/win-64/current_repodata.json>
+   Elapsed: -
+  An HTTP error occurred when trying to retrieve this URL.
+  HTTP errors are often intermittent, and a simple retry will get you on your way.
+  'https://conda.anaconda.org/conda-forge/win-64' 
+- :+1: solution that worked for me:
+    - *said by "kevin-keraudren" [here](https://github.com/conda/conda/issues/6007)*
+    >  You can download the packages manually using your web browser, for instance: [this link](https://anaconda.org/anaconda/openssl/files)
+        Then install packages offline:
+        `conda install --offline openssl-1.1.1c-he774522_1.tar.bz2`  (note to take the exact name of the winrar that will be downloaded after the word "offline")
+
+## Error 05:
 * Spyder doesn't launch but Anaconda navigator works.
     - Spyder opens for seconds then error "python stopped working"
         -  Error opening Anaconda or spyder "no Qt plugin platform" 
