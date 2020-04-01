@@ -24,12 +24,13 @@
     > I found out libssl-1_1-x64 dlls in Anaconda/DLLS and Anaconda/Library/bin being installed at different dates, so, as an experiment, I copied the one in Anaconda/DLLS and replaced that in Anaconda/Library/bin and conda started working again, at least for now - I could install new packages again.
    
 ## Error 04:
-* Spyder doesn't launch
-    - "python stopped working" diaglog box
+* Spyder doesn't launch but Anaconda navigator works.
+    - Spyder opens for seconds then error "python stopped working"
         -  Error opening Anaconda or spyder "no Qt plugin platform" 
-* :sob: These errors happened in series to me, whenever I try to solve one the other would just appear(It just missed up more not solved)
+* :sob: These errors happened in series to me, whenever I try to solve one the other would just appear (missed up more)
 * Proposed solutions:
-    - run this command in anaconda prompt `<spyder --reset>` then restart your pc
+    - run this command in anaconda prompt `<spyder --reset>` then restart your pc.
     - update anconda or pyqt (try both) `<conda update --all>`    `<conda update pyqt>`
     - Uninstall pyqt and qt then reinstall them again `<conda remove qt>`     `<conda install -c anaconda qt>` 
 
+##### Note: at first when spyder didn't launch, I tried to run it from anaconda navigator but it yielded this error, these are last 2 lines from it (from PyQt5.QtWebEngineWidgets import QWebEnginePage, ValueError: PyCapsule_GetPointer called with incorrect name). [Link](https://github.com/spyder-ide/spyder/issues/3138) that mentioned same issue in the comments.
