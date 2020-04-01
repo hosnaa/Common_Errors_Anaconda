@@ -47,3 +47,4 @@
     - Uninstall pyqt and qt then reinstall them again `<conda remove qt>` then   `<conda install -c anaconda qt>` 
 
 ##### Note: at first when spyder didn't launch, I tried to run it from anaconda navigator but it yielded this error: (from PyQt5.QtWebEngineWidgets import QWebEnginePage, ValueError: PyCapsule_GetPointer called with incorrect name). [Link](https://github.com/spyder-ide/spyder/issues/3138) that mentioned same issue in the comments.
+* At last I needed to uninstall anaconda and reinstall it again 
