@@ -25,10 +25,10 @@
 
 ## Error 04:
 * whenever I try to write anything in the prompt regarding anaconda it gives this error\
-> CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://conda.anaconda.org/conda-forge/win-64/current_repodata.json>
-   Elapsed: -
-  An HTTP error occurred when trying to retrieve this URL.
-  HTTP errors are often intermittent, and a simple retry will get you on your way.
+ CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://conda.anaconda.org/conda-forge/win-64/current_repodata.json>\
+  Elapsed: - \
+  An HTTP error occurred when trying to retrieve this URL.\
+  HTTP errors are often intermittent, and a simple retry will get you on your way.\
   'https://conda.anaconda.org/conda-forge/win-64' 
 - :+1: solution that worked for me:
     - *said by "kevin-keraudren" [here](https://github.com/conda/conda/issues/6007)*
