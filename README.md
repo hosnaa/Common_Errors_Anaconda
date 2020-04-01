@@ -60,3 +60,4 @@
     - From search/start at window, type registry editor and open it.
     - Choose HKEY_CURRENT_USER\Software\Microsoft\Command Processor\
     - If you find an AutoRun key then delete it.
+        - In my case, this autorun key was from the uninstalled and delected anaconda directory.
