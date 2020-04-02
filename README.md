@@ -75,3 +75,4 @@ install anything through anaconda prompt, just after solving the environment.
     - I thought that the anaconda that I've got by this time is corrupted with these errors\
     and so I uninstalled it, removed it totally and downloaded it from their official website.
     - When I faced this problem again just after installing anaconda, updating conda using the above command solved the issue.
+    - **Useful links for this issue** that have mentioned the above solutions: [Link1](https://github.com/conda/conda/issues/8051), [link2](https://github.com/conda/conda/issues/6406)
