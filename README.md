@@ -48,7 +48,7 @@
 
 * :+1: Solution that worked for me:
     - :disappointed: So frustrating, but actually after trying all these solutions
-    I kept into facing more problems and\ at last I gave up and **Unistalled** Anaconda then **Reinstalled** it and it worked safely. 
+    I kept into facing more problems and\ at last I gave up and **Unistalled** Anaconda then **Reinstalled** it and it worked again. 
 
 ##### Note: at first when spyder didn't launch, I tried to run it from anaconda navigator but it yielded this error: (from PyQt5.QtWebEngineWidgets import QWebEnginePage, ValueError: PyCapsule_GetPointer called with incorrect name). [Link](https://github.com/spyder-ide/spyder/issues/3138) that mentioned same issue in the comments.
 
@@ -61,3 +61,17 @@
     - Choose HKEY_CURRENT_USER\Software\Microsoft\Command Processor\
     - If you find an AutoRun key then delete it.
         - In my case, this autorun key was from the uninstalled and delected anaconda directory.
+
+## Error 07:
+* "Python has stopped working", python crashes whenever I try to\
+install anything through anaconda prompt, just after solving the environment.
+* Proposed solutions:
+    - Some said it's for your antivirus is blocking python so turn it off for some time.
+    - Others said to remove conda-forge then add it again.
+    - Another solution was to set the channel_priority to false with this command `conda config --set channel_priority false`
+    - Also, there was to update conda `conda update --all`
+
+* :+1: Solution that worked for me:
+    - I thought that the anaconda that I've got by this time is corrupted with these errors\
+    and so I uninstalled it, removed it totally and downloaded it from their official website.
+    - When I faced this problem again just after installing anaconda, updating conda using the above command solved the issue.
