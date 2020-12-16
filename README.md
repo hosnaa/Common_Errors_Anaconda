@@ -64,7 +64,7 @@
         - In my case, this autorun key was from the uninstalled and delected anaconda directory.
 
 ## Error 07:
-* Python crashes whenever I try to install anything through anaconda prompt.\ "Python has stopped working" dialog box appears just after solving the environment.
+* Python crashes whenever I try to install anything through anaconda prompt. `"Python has stopped working"` dialog box appears just after solving the environment.
 * Proposed solutions:
     - Some proposed that: it's for your antivirus is blocking python so turn it off for some time.
     - Others said to remove conda-forge then add it again. `conda config --remove channels conda-forge` then `conda config --add channels conda-forge`
