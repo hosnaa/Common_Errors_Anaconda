@@ -76,3 +76,11 @@
     and so I uninstalled it, removed it totally and downloaded it from their official website.
     - When I faced this problem again just after installing anaconda, updating conda using the above command solved the issue.
     - **Useful links for this issue** that have mentioned the above solutions: [Link1](https://github.com/conda/conda/issues/8051), [link2](https://github.com/conda/conda/issues/6406)
+
+## Error 08:
+* Trying to install tensorflow on anaconda gives me this error:  `Access is denied: (*path*) Consider using the `--user` option or check the permissions.`
+* :+1: Solution that worked for me:
+    - My anaconda was installed on `d: drive` meanwhile the prompt was from the `c: drive` so I only needed to `cd` to `d:`
+
+## Note for Error 09:
+* If you're gonna install spyder/python and Rstudio, then better separate them into two different environment, as probably both will conflict together.
